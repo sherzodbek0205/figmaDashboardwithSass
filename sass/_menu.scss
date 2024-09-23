@@ -1,0 +1,42 @@
+@mixin display{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+}
+.menu{
+    width: 300px;
+    border-right:1px solid  #E3E8EE;
+    .name{
+        padding: 16px;
+        border-bottom: 1px solid #E3E8EE;
+    }
+
+}
+.menubar{
+    margin-top: 50px;
+    padding: 28px 39px;
+    display: flex;
+    flex-direction: column;
+    gap:40px ;
+    .pp{
+@include display();
+gap:100px; 
+
+    }
+}
+
+p{
+    @include display();
+
+}
+.light{
+    margin-top:354px ;
+}
+.foot{
+    padding: 24px 16px;
+    border-top: 1px solid #E3E8EE;
+    margin-top: 117px;
+    @include display();
+
+}

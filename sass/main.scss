@@ -1,0 +1,21 @@
+@import 'dashboard';
+@import 'menu';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vh;
+    box-sizing: border-box;
+    background: #FAFCFD;
+    font-family: Inter;
+}
+.container{
+    display: flex;
+
+}
+p{
+    color: #344054;
+    font-weight: 500;
+}
